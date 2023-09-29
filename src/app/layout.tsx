@@ -14,11 +14,13 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  debugger;
   return (
     <html lang="en">
       <body className={inter.className}>
         {children}
-        <p>Teste 4</p>
+        <p>Teste 6</p>
+        <p>Teste 6</p>
       </body>
     </html>
   );
